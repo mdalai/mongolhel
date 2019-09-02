@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">蒙古语吧</string>
+
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="title_learn">学习 (%1$d/%2$d)</string>
+    <string name="quiz_button_text">进入测试</string>
+    <string name="learn_button_text">进入学习</string>
+
+
+    <string name="mengyu_text">ᠮᠤᠨᠭᠭᠤᠯ ᠬᠡᠯᠡ</string>
+    <string name="guojiyinbiao">mcngc:l</string>
+    <string name="hanyu">蒙古</string>
+    <string name="image_desc">Image of the word</string>
+
+    <string name="squareBracket_format">\[%s\]</string>
+    <string name="doubleQuote_format">\"%s\"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">学习蒙古语的app</string>
+</resources>

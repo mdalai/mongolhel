@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment" android:name="com.example.android.learnmongolian.home.HomeFragment"
+              android:label="HOME" tools:layout="@layout/home_fragment">
+        <action android:id="@+id/action_homeFragment_to_wordCollectionFragment"
+                app:destination="@id/wordCollectionFragment"/>
+    </fragment>
+    <fragment android:id="@+id/wordCollectionFragment"
+              android:name="com.example.android.learnmongolian.learn.WordCollectionFragment"
+              android:label="学习">
+        <argument android:name="selectedGroupId"
+                  app:argType="integer"/>
+    </fragment>
+    <fragment android:id="@+id/aboutFragment" android:name="com.example.android.learnmongolian.AboutFragment"
+              android:label="关于" tools:layout="@layout/fragment_about"/>
+</navigation>
