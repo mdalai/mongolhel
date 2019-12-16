@@ -11,7 +11,7 @@
 
 ## Upload data
 
-数据上传统一用：  http://<IP>:8080/docs.  浏览器输入此URL会看到很多API. 上传数据需要POST 如下图：
+数据上传统一用：  http://YOUR-IP:8080/docs.  浏览器输入此URL会看到很多API. 上传数据需要POST 如下图：
   ![alt text][apiguide1]
   
 
